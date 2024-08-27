@@ -1,31 +1,46 @@
-# TareaFinalGIT
-hola
-Hola soy lucas
-Algoritmo sin_titulo
-	definir base, altura, area como real
-	Escribir "ingrese la base", base
-	leer base
-	Escribir "ingrese la altura", altura
-	leer altura
-	Escribir "La superficie es de " base * altura / 2
-FinAlgoritmo
-El volumen de un prisma rectangular se calcula de la siguiente manera: volumen = largo x 
-ancho x alto. Escribe una función que calcule el volumenDeRectPrism.
-const form = document.getElementById('myForm');
-form.addEventListener('submit', function(event) {
-  event.preventDefault();
-  validateForm();
-});
-function validateEmail(email) {
-    const regex =  /^[^\s@]+@[^\s@]+\.[^\s@]{2,7}$/
-    return regex.test(email)
-  }
-  function validateForm() {
-    const emailInput = document.getElementById('email');
-    const email = emailInput.value;
-    if (!validateEmail(email)) {
-      alert('Por favor ingrese un correo electrónico válido.');
-    } else {
-      alert('Correo electrónico enviado correctamente.');
-    }
-  }
+eader { 
+    
+    background-color: aquamarine;
+    width: 98%;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-between;
+
+   
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+   
+}
+header ul li { margin: 20px;}
+.logo {width: 600px;}
+.menu { font-size: large;
+display: flex;
+flex-direction: row;}
+img {
+    width: 150px;
+    border-radius: 50%;
+}
+.content {
+    display: flex;
+    flex-direction:row;
+    width: 98%;
+    height: 30%;
+    padding: 15px;
+    background-color: blueviolet;
+    padding: 20px;
+}
+.content p {font-size: medium;}
+h1 {font-size: larger;}
+p {font-size: 22px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+h1  {font-size: xx-large;}
+.imavideo {display: flex;
+flex-direction: row;
+width: 100%;
+justify-content: center;}
