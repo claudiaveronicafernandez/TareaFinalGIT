@@ -7,10 +7,8 @@ eader {
     display: flex;
     flex-direction: row;
     padding: 20px;
-    justify-content: space-between;
-
-   
-}
+    justify-content: space-between;}
+    
 header ul{
     list-style: none;
     display: flex;
@@ -44,3 +42,17 @@ h1  {font-size: xx-large;}
 flex-direction: row;
 width: 100%;
 justify-content: center;}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
